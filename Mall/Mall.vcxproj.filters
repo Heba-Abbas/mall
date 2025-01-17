@@ -27,9 +27,6 @@
     <ClCompile Include="Cylinder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="gate.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Ground.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -45,9 +42,6 @@
     <ClCompile Include="Sphere.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Square.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Stair.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -55,6 +49,18 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MakeUp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shelves.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Supermarket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Library.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -72,9 +78,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Cylinder.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="gate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="GLtexture.h">
@@ -98,9 +101,6 @@
     <ClInclude Include="Sphere.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Square.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Stair.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -120,6 +120,21 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="stb_image_aug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MakeUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shelves.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Supermarket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Library.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cachier.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -257,6 +272,264 @@
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="wallOutsideLR.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="art0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="book1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="book2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="book3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="book4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="book5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="book6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="book7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="book8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="book9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="book10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="book11.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="book12.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="book13.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="book14.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="book15.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="book16.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="book17.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="book18.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="book19.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="book20.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="book21.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="book22.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="floorLib.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="library1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="library3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="library4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="library5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="librarywalls.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rooflibrary.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="black2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="floor1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="floor2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="floor2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="floor3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="floor4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="floor4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="food0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="food1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="food2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="food3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="food4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="food5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="food6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="food7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="food8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="food9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="food10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="food11.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="food12.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="food13.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="food14.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="food15.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="food16.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="food17.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="food18.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="food19.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="food20.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="food21.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="food22.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="food23.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="fridge2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="fridge4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gray1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icecreamfridge1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="iron1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="lapBack.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="lapKeyboard.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="lapScreen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="makeup1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="makeup2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="makeup3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="makeupfloor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="makeupPlacard.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="makeupPlacard2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="makeupPlacard3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="makeupPlacard4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="makeuproof.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="makeupwalls.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="mirror1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="oreo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pepsifridge1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="wall0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="wall4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="wall4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="wooden wall1.bmp">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>

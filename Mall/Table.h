@@ -2,6 +2,8 @@
 #define TABLE_H
 
 #include "Cube.h"
+#include <cmath>
+#include <math.h>
 #include <glut.h>
 #include <gl\gl.h>      // Header File For The OpenGL32 Library
 #include <gl\glu.h>      // Header File For The GLu32 Library
@@ -68,6 +70,7 @@ public:
 			}
 		glEnd();
 		glDisable(GL_BLEND); // Disable blending again
+		glPopAttrib();
 	}
 	void draw(){
 	
