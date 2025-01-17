@@ -2223,7 +2223,7 @@ int DrawGLScene(GLvoid)									// Here's Where We Do All The Drawing
 
 	// Street
 	glPushMatrix();
-	glTranslatef(0.0, -1750.0, -700.0);
+	glTranslatef(0.0, -1750.0, -0.0);
 	glRotatef(180, 0.0, 1.0, 0.0);
 	drawStreet();
 	glPopMatrix();
@@ -2262,45 +2262,45 @@ int DrawGLScene(GLvoid)									// Here's Where We Do All The Drawing
 
 	// Ad Post
 	glPushMatrix();
-	glTranslatef(2500.0, -1300.0, 2600.0);
+	glTranslatef(2500.0, -1400.0, 2600.0);
 	glRotatef(-45,0,1,0);
 	drawAD();
 	glPopMatrix();
 
 	// Fence
 	glPushMatrix();
-	glTranslatef(0.0, -1600.0, 3200.0);
+	glTranslatef(0.0, -1700.0, 3200.0);
 	drawFence();
 	glPopMatrix();
 
 	// Restaurant
 	glPushMatrix();
-	glTranslatef(-1100.0, -1200.0, -1000);
-	glScalef(0.6, 0.6, 0.6);
+	glTranslatef(-1080.0, -1170.0, -1100);
+	glScalef(0.65, 0.65, 0.65);
 	glRotatef(90, 0, 1, 0);
 	drawRestaurant();
 	glPopMatrix();
 	
 	// Supermarket 
 	glPushMatrix();
-	glTranslatef(-1100.0, -1200.0, 100.0);
-	glScalef(0.6, 0.6, 0.6);
+	glTranslatef(-1080.0, -1170.0, 90.0);
+	glScalef(0.65, 0.65, 0.65);
 	glRotatef(90, 0, 1, 0);
 	drawSupermarket();
 	glPopMatrix();
 
 	// MakeUp Store 
 	glPushMatrix();
-	glTranslatef(1100.0, -1200.0, -1000.0);
-	glScalef(0.6, 0.6, 0.6);
+	glTranslatef(1080.0, -1170.0, -1100.0);
+	glScalef(0.65, 0.65, 0.65);
 	glRotatef(-90, 0, 1, 0);
 	drawMackupStore();
 	glPopMatrix();
 
 	// Library (book store)
 	glPushMatrix();
-	glTranslatef(1100.0, -1200.0, 100.0);
-	glScalef(0.6, 0.6, 0.6);
+	glTranslatef(1080.0, -1170.0, 90.0);
+	glScalef(0.65, 0.65, 0.65);
 	glRotatef(-90, 0, 1, 0);
 	drawBookStore();
 	glPopMatrix();
