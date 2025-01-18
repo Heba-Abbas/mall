@@ -192,7 +192,8 @@ GLuint
 	elevator,
 	silverMetal,
 	wallW,
-	ad
+	ad,
+	ad1
 
 	;
 
@@ -764,7 +765,7 @@ void drawAD(){
 
 	
 	Cube adPost(70, 400, 35, blackM, blackM, blackM, blackM, blackM, blackM, false);
-	Cube adFront(600, 390, 75, ad, ad, blackM, blackM, blackM, blackM, false);
+	Cube adFront(600, 390, 75, ad, ad1, blackM, blackM, blackM, blackM, false);
 
 	adPost.draw();
 	glPushMatrix();
@@ -2501,6 +2502,7 @@ int InitGL(GLvoid)										// All Setup For OpenGL Goes Here
 	silverMetal = loadGltexture("silverMetal.png");
 	wallW = loadGltexture("wallW.png");
 	ad = loadGltexture("ad.png");
+	ad1 = loadGltexture("ad1.png");
 
 
 	//glDisable(GL_TEXTURE_2D);
