@@ -541,10 +541,69 @@
     <Image Include="sara2.bmp">
       <Filter>Resource Files</Filter>
     </Image>
+    <Image Include="brown.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="mirrorshoes.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="shoes2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="shoes3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="shoesfloor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="shoesPlacard.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="shoesPlacard2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="shoesPlacard3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="shoesPlacard4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="shoesroof.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="shoeswalls.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="paintedWallG.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="paintedWallW.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="blackM.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="elevator.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="silverMetal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="wallW.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ad.png">
+      <Filter>Header Files</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <None Include="Cart N250113.3DS">
       <Filter>Resource Files</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="MDB.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
   </ItemGroup>
 </Project>

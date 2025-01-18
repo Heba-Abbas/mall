@@ -54,11 +54,13 @@
     <ClInclude Include="Tree.h" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="ad.png" />
     <Image Include="art0.png" />
     <Image Include="art1.png" />
     <Image Include="art2.png" />
     <Image Include="art3.png" />
     <Image Include="black2.png" />
+    <Image Include="blackM.png" />
     <Image Include="book1.png" />
     <Image Include="book10.png" />
     <Image Include="book11.png" />
@@ -81,6 +83,7 @@
     <Image Include="book7.png" />
     <Image Include="book8.png" />
     <Image Include="book9.png" />
+    <Image Include="brown.png" />
     <Image Include="building.png" />
     <Image Include="buildingFront.png" />
     <Image Include="cart1.bmp" />
@@ -88,6 +91,7 @@
     <Image Include="darkWood.png" />
     <Image Include="door.png" />
     <Image Include="down1.bmp" />
+    <Image Include="elevator.png" />
     <Image Include="floor1.bmp" />
     <Image Include="floor2.bmp" />
     <Image Include="floor2.png" />
@@ -157,6 +161,7 @@
     <Image Include="mall-street-view.png" />
     <Image Include="mallFloor.png" />
     <Image Include="mirror1.png" />
+    <Image Include="mirrorshoes.png" />
     <Image Include="nx.png" />
     <Image Include="nxN.png" />
     <Image Include="ny.png" />
@@ -165,6 +170,8 @@
     <Image Include="nzN.png" />
     <Image Include="oreo.png" />
     <Image Include="outsideWall.png" />
+    <Image Include="paintedWallG.png" />
+    <Image Include="paintedWallW.png" />
     <Image Include="pepsifridge1.png" />
     <Image Include="px.png" />
     <Image Include="pxN.png" />
@@ -178,7 +185,17 @@
     <Image Include="roof.png" />
     <Image Include="rooflibrary.png" />
     <Image Include="sara2.bmp" />
+    <Image Include="shoes2.png" />
+    <Image Include="shoes3.png" />
+    <Image Include="shoesfloor.png" />
+    <Image Include="shoesPlacard.png" />
+    <Image Include="shoesPlacard2.png" />
+    <Image Include="shoesPlacard3.png" />
+    <Image Include="shoesPlacard4.png" />
+    <Image Include="shoesroof.png" />
+    <Image Include="shoeswalls.png" />
     <Image Include="shukr1.png" />
+    <Image Include="silverMetal.png" />
     <Image Include="tv.png" />
     <Image Include="wall.png" />
     <Image Include="wall0.bmp" />
@@ -187,11 +204,15 @@
     <Image Include="wallOutside.png" />
     <Image Include="wallOutsideF.png" />
     <Image Include="wallOutsideLR.png" />
+    <Image Include="wallW.png" />
     <Image Include="wood.png" />
     <Image Include="wooden wall1.bmp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Cart N250113.3DS" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="MDB.mp3" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{2EA3D4F3-75E8-4C2E-A493-6BF8BA376ABA}</ProjectGuid>
