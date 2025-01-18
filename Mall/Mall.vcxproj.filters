@@ -27,9 +27,6 @@
     <ClCompile Include="Cylinder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Ground.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -63,6 +60,9 @@
     <ClCompile Include="Library.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Model_3DS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="3DTexture.h">
@@ -81,9 +81,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="GLtexture.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Ground.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="math3d.h">
@@ -532,5 +529,22 @@
     <Image Include="wooden wall1.bmp">
       <Filter>Resource Files</Filter>
     </Image>
+    <Image Include="cart1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="down1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ree.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sara2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Cart N250113.3DS">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

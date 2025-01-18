@@ -20,13 +20,14 @@
 #include "Library.h"
 #include "Chair.h"
 #include <glut.h>
-#include <Model_3ds.h>
-#include <3DTexture.h>
+//#include <Model_3ds.h>
+#include "Model_3DS.h"
+#include "3DTexture.h"
 #include <windows.h>		// Header File For Windows
 #include <gl.h>			// Header File For The OpenGL32 Library
 #include <glu.h>			// Header File For The GLu32 Library
 #include <GLAUX.H>		// Header File For The Glaux Library
-#include <Model_3DS.h>
+//#include <Model_3DS.h>
 #include "camera.h"
 #include <mmsystem.h> 
 #pragma comment(lib, "winmm.lib")
@@ -42,6 +43,9 @@ bool	active=TRUE;		// Window Active Flag Set To TRUE By Default
 bool	fullscreen=TRUE;	// Fullscreen Flag Set To Fullscreen Mode By Default
 
 float moonPosition;
+Model_3DS *cart;
+GLTexture cart1,cart2,cart3,cart4;
+
 
 		GLfloat light_pos [] = {0.0, 500.0, 0.0, 1.0};
 		GLfloat light_pos2 [] = {0.0, 1000.0, -200.0, 1.0};
@@ -172,6 +176,7 @@ GLuint
 	picture1
 
 	;
+
 
 
 bool isDayTime = true;
@@ -654,6 +659,52 @@ void drawMall(){
 
 	glPopMatrix();
 
+	glPushMatrix();
+	Cube storeSep(50, 280, 50, woodTex, woodTex, woodTex, woodTex, woodTex, woodTex, false);
+
+	glPushMatrix();
+	glTranslatef(520, -1420.0, 500);
+	storeSep.draw();
+	glPopMatrix();
+
+	glPushMatrix();
+	glTranslatef(-520, -1420.0, 500);
+	storeSep.draw();
+	glPopMatrix();
+
+	glPopMatrix();
+
+	glPushMatrix();
+	Cube floorSep(200, 40, 1250, woodTex, woodTex, woodTex, woodTex, woodTex, woodTex, false);
+
+	glPushMatrix();
+	glTranslatef(450, -1125, 410.0);
+	floorSep.draw();
+	glPopMatrix();
+
+	glPushMatrix();
+	glTranslatef(-450, -1125, 400.0);
+	floorSep.draw();
+	glPopMatrix();
+
+	glPopMatrix();
+
+	glPushMatrix();
+	Cube floorSep2(1680, 40, 250, woodTex, woodTex, woodTex, woodTex, woodTex, woodTex, false);
+	
+	glPushMatrix();
+	glTranslatef(-0, -1125, -900.0);
+	floorSep2.draw();
+	glPopMatrix();
+
+	glPopMatrix();
+
+
+	glPushMatrix();
+	glTranslatef(-0, -1350, -1300.0);
+	Cube elevator(200, 300, 200, darkWood, darkWood, darkWood, darkWood, darkWood, darkWood, false);
+	elevator.draw();
+	glPopMatrix();
 
 	glPopMatrix();
 
@@ -2146,6 +2197,24 @@ int InitGL(GLvoid)										// All Setup For OpenGL Goes Here
 	book21=loadGltexture("book21.png");
 	book22=loadGltexture("book22.png");
 
+	//glDisable(GL_TEXTURE_2D);
+	cart=new Model_3DS();
+    cart->Load("Cart N250113.3DS");
+	cart1.LoadBMP("down1.bmp");
+	cart2.LoadBMP("cart1.bmp");
+	cart3.LoadBMP("sara2.bmp");
+	cart4.LoadBMP("ree.bmp");
+
+
+    cart->Materials[0].tex=cart1;
+    cart->Materials[1].tex=cart2;
+    cart->Materials[2].tex=cart3;
+    cart->Materials[3].tex=cart4;
+ 
+	cart->pos.x=0;
+	cart->pos.y=10;
+	cart->pos.z=2000;
+	cart->scale=1;
 
 
 	glShadeModel(GL_SMOOTH);							// Enable Smooth Shading
@@ -2166,6 +2235,8 @@ int InitGL(GLvoid)										// All Setup For OpenGL Goes Here
 	
 	//glEnable(GL_LIGHTING);
 	//glEnable(GL_LIGHT1);
+
+
 	return TRUE;										// Initialization Went OK
 }
 float anglex = 0.0f;
@@ -2305,6 +2376,10 @@ int DrawGLScene(GLvoid)									// Here's Where We Do All The Drawing
 	drawBookStore();
 	glPopMatrix();
 
+
+
+
+	//cart->Draw();
 	//glDisable(GL_BLEND);
 	return TRUE; // Keep Going
 									// Keep Going

@@ -15,11 +15,11 @@
     <ClCompile Include="camera.cpp" />
     <ClCompile Include="Cube.cpp" />
     <ClCompile Include="Cylinder.cpp" />
-    <ClCompile Include="Ground.cpp" />
     <ClCompile Include="Library.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MakeUp.cpp" />
     <ClCompile Include="math3d.cpp" />
+    <ClCompile Include="Model_3DS.cpp" />
     <ClCompile Include="PolygonQ.cpp" />
     <ClCompile Include="Shelves.cpp" />
     <ClCompile Include="Sphere.cpp" />
@@ -36,7 +36,6 @@
     <ClInclude Include="Cube.h" />
     <ClInclude Include="Cylinder.h" />
     <ClInclude Include="GLtexture.h" />
-    <ClInclude Include="Ground.h" />
     <ClInclude Include="Library.h" />
     <ClInclude Include="MakeUp.h" />
     <ClInclude Include="math3d.h" />
@@ -84,9 +83,11 @@
     <Image Include="book9.png" />
     <Image Include="building.png" />
     <Image Include="buildingFront.png" />
+    <Image Include="cart1.bmp" />
     <Image Include="concrete.png" />
     <Image Include="darkWood.png" />
     <Image Include="door.png" />
+    <Image Include="down1.bmp" />
     <Image Include="floor1.bmp" />
     <Image Include="floor2.bmp" />
     <Image Include="floor2.png" />
@@ -171,10 +172,12 @@
     <Image Include="pyN.png" />
     <Image Include="pz.png" />
     <Image Include="pzN.png" />
+    <Image Include="ree.bmp" />
     <Image Include="restaurantFloor.png" />
     <Image Include="rightHandle.png" />
     <Image Include="roof.png" />
     <Image Include="rooflibrary.png" />
+    <Image Include="sara2.bmp" />
     <Image Include="shukr1.png" />
     <Image Include="tv.png" />
     <Image Include="wall.png" />
@@ -186,6 +189,9 @@
     <Image Include="wallOutsideLR.png" />
     <Image Include="wood.png" />
     <Image Include="wooden wall1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Cart N250113.3DS" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{2EA3D4F3-75E8-4C2E-A493-6BF8BA376ABA}</ProjectGuid>
@@ -220,6 +226,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>

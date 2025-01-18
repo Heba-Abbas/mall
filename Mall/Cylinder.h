@@ -1,4 +1,4 @@
-#ifndef CYLINDER_H   //SALMA AL FAWAL
+#ifndef CYLINDER_H   
 #define CYLINDER_H
 
 class Cylinder {
