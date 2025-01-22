@@ -1,10 +1,32 @@
-﻿Build started 1/18/2025 12:12:11 PM.
-     1>Project "C:\Users\Ali Sliman\documents\visual studio 2012\Projects\Mall\Mall\Mall.vcxproj" on node 2 (Build target(s)).
+﻿Build started 1/18/2025 12:25:23 PM.
+     1>Project "C:\Users\User\Desktop\New folder (2)\Mall_CG\Mall\Mall.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt 3DTexture.cpp camera.cpp Cube.cpp Cylinder.cpp Library.cpp Main.cpp MakeUp.cpp math3d.cpp Model_3DS.cpp PolygonQ.cpp Shelves.cpp Sphere.cpp Stair.cpp Supermarket.cpp Table.cpp Texture.cpp
+         Texture.cpp
+         Table.cpp
+         Supermarket.cpp
+         Stair.cpp
+         Sphere.cpp
+         Shelves.cpp
+         PolygonQ.cpp
+         Model_3DS.cpp
+         math3d.cpp
+         MakeUp.cpp
          Main.cpp
+         Library.cpp
+         Cylinder.cpp
+         Cube.cpp
+         camera.cpp
+         3DTexture.cpp
+     1>c:\users\user\desktop\new folder (2)\mall_cg\mall\3dtexture.cpp(61): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strlwr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(250) : see declaration of 'strlwr'
+     1>c:\users\user\desktop\new folder (2)\mall_cg\mall\3dtexture.cpp(61): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\user\desktop\new folder (2)\mall_cg\mall\3dtexture.cpp(77): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strlwr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(250) : see declaration of 'strlwr'
+         Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ali Sliman\documents\visual studio 2012\Projects\Mall\Debug\Mall.exe" /INCREMENTAL /NOLOGO GLAUX.lib GLU32.lib glut.lib OPENGL32.lib glut32.lib SOIL.lib glew32s.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ali Sliman\documents\visual studio 2012\Projects\Mall\Debug\Mall.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ali Sliman\documents\visual studio 2012\Projects\Mall\Debug\Mall.lib" /MACHINE:X86 Debug\3DTexture.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Desktop\New folder (2)\Mall_CG\Debug\Mall.exe" /INCREMENTAL /NOLOGO GLAUX.lib GLU32.lib glut.lib OPENGL32.lib glut32.lib SOIL.lib glew32s.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\User\Desktop\New folder (2)\Mall_CG\Debug\Mall.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Desktop\New folder (2)\Mall_CG\Debug\Mall.lib" /MACHINE:X86 Debug\3DTexture.obj
          Debug\camera.obj
          Debug\Cube.obj
          Debug\Cylinder.obj
@@ -20,9 +42,14 @@
          Debug\Supermarket.obj
          Debug\Table.obj
          Debug\Texture.obj
-         Mall.vcxproj -> C:\Users\Ali Sliman\documents\visual studio 2012\Projects\Mall\Debug\Mall.exe
-     1>Done Building Project "C:\Users\Ali Sliman\documents\visual studio 2012\Projects\Mall\Mall\Mall.vcxproj" (Build target(s)).
+         LINK : C:\Users\User\Desktop\New folder (2)\Mall_CG\Debug\Mall.exe not found or not built by the last incremental link; performing full link
+     1>SOIL.lib(image_DXT.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'SOIL.lib(image_DXT.obj)' or at 'C:\Users\User\Desktop\New folder (2)\Mall_CG\Debug\vc110.pdb'; linking object as if no debug info
+     1>SOIL.lib(image_helper.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'SOIL.lib(image_helper.obj)' or at 'C:\Users\User\Desktop\New folder (2)\Mall_CG\Debug\vc110.pdb'; linking object as if no debug info
+     1>SOIL.lib(SOIL.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'SOIL.lib(SOIL.obj)' or at 'C:\Users\User\Desktop\New folder (2)\Mall_CG\Debug\vc110.pdb'; linking object as if no debug info
+     1>SOIL.lib(stb_image_aug.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'SOIL.lib(stb_image_aug.obj)' or at 'C:\Users\User\Desktop\New folder (2)\Mall_CG\Debug\vc110.pdb'; linking object as if no debug info
+         Mall.vcxproj -> C:\Users\User\Desktop\New folder (2)\Mall_CG\Debug\Mall.exe
+     1>Done Building Project "C:\Users\User\Desktop\New folder (2)\Mall_CG\Mall\Mall.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:03.77
+Time Elapsed 00:00:08.24
